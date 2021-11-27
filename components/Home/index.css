@@ -1,0 +1,10 @@
+.closeIcon {
+  height: 30px;
+  width: 30px;
+  justify-self: flex-end;
+}
+
+.SearchIcon {
+  height: 25px;
+  width: 25px;
+}

@@ -1,0 +1,49 @@
+.icon {
+  height: 40px;
+  width: 60px;
+  margin-right: 20px;
+}
+
+.icons {
+  height: 40px;
+  width: 60px;
+  margin-right: 20px;
+  color: white;
+}
+
+.ham {
+  height: 20px;
+  width: 40px;
+  margin-right: 10px;
+}
+
+@media (max-width: 576px) {
+  .icons {
+    height: 20px;
+    width: 40px;
+    margin-right: 10px;
+  }
+  .icon {
+    height: 20px;
+    width: 40px;
+    margin-right: 10px;
+  }
+}
+
+@media (min-width: 577px) {
+  .ham {
+    display: none;
+  }
+  .logoutbtn {
+    display: none;
+  }
+}
+
+.white {
+  color: white;
+}
+
+.logoutbtn {
+  background-color: transparent;
+  border: 0px;
+}
